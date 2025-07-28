@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Keep left', 'Keep right', 'No U-turn', 'No left turn', 'No parking', 'No right turn', 'No stopping', 'Parking', 'Pedestrian Crossing', 'Speed Limit -100-', 'Speed Limit -30-', 'Speed Limit -60-', 'Stop Sign', 'Traffic Light -Green-', 'Traffic Light -Red-', 'Traffic Light -Yellow-', 'U-turn', 'bike', 'motobike', 'person', 'vehicle']
+
+roboflow:
+  workspace: xm-go-996-wktuy
+  project: signs-66n1a
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/xm-go-996-wktuy/signs-66n1a/dataset/5
