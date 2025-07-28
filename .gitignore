@@ -1,0 +1,8 @@
+# Ignore dataset folder
+Dataset/
+
+# Ignore GitHub password or secrets file
+git_pass.txt
+
+# Ignore a specific YOLO model weight
+yolo11n.pt
